@@ -7,7 +7,7 @@ function SchabloneOne(props) {
             <h1>{props.title}</h1>
             <p>{props.description}</p>
             <h2>{props.author}</h2>
-            <button>BUTTON</button>
+            <button>READ MORE</button>
         </div>
     )
 }

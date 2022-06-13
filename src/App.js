@@ -6,6 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <h1><span>Gerade erst vorgestellt. </span>Sieh dir jetzt an, was es Neues gibt.</h1>
       <SchabloneMore />
     </div>
   );
