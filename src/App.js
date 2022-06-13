@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import SchabloneMore from './components/SchabloneMore';
 import './App.css';
+
+//948449140e8346e8ba27b1d6de03da86 // API Key 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SchabloneMore />
     </div>
   );
 }
